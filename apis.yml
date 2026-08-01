@@ -1,8 +1,15 @@
 aid: sunwoda
 name: SUNWODA
-description: 'SUNWODA is a company surfaced as a portfolio company of idg-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: consumer-technology. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Sunwoda Electronic Co., Ltd. (欣旺达电子股份有限公司, Shenzhen Stock Exchange
+  300207) is a global lithium-ion battery manufacturer headquartered in Shenzhen, China.
+  Its business spans consumer batteries (smartphone and laptop battery packs), electric-vehicle
+  power batteries, energy-storage systems, energy services, smart hardware, and an
+  innovation ecosystem. Sunwoda supplies battery cells and packs to major consumer-electronics
+  and automotive OEMs worldwide. As a hardware and manufacturing company it operates
+  corporate, investor, supplier (SRM), and bidding platforms, but publishes no public
+  developer portal, API documentation, or SDKs. This profile was surfaced as a portfolio
+  company of IDG Capital and added to the API Evangelist network as a lead; enrichment
+  confirms there is no public API surface to catalog at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/sunwoda/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +17,46 @@ x-backed-by:
 - idg-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer Technology
+- Batteries
+- Lithium-Ion
+- Energy Storage
+- Electric Vehicles
+- Manufacturing
+- Hardware
+- Consumer Electronics
+image: https://en.sunwoda.com/favicon.ico
 apis: []
+common:
+- type: DomainSecurity
+  url: security/sunwoda-domain-security.yml
+- type: Website
+  url: https://en.sunwoda.com/
+- type: Website
+  url: https://www.sunwoda.com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
