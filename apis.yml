@@ -11,6 +11,9 @@ description: 'Sunwoda Electronic Co., Ltd. (欣旺达电子股份有限公司, S
   company of IDG Capital and added to the API Evangelist network as a lead; enrichment
   confirms there is no public API surface to catalog at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/sunwoda/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "This profile was surfaced as a portfolio company of IDG Capital and added to the API Evangelist network as a lead; enrichment confirms there is no public API surface to catalog at this time."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
